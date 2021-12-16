@@ -1,4 +1,4 @@
-CUDA_PATH=/usr/local/cuda
+CUDA_PATH=/opt/cuda
 HOST_COMPILER ?= g++
 NVCC=${CUDA_PATH}/bin/nvcc -ccbin ${HOST_COMPILER}
 TARGET=train convolution
